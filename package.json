@@ -4,13 +4,17 @@
   "description": "create iconfont.js from svgs",
   "main": "lib/index.js",
   "bin": {
-    "icon-cli": "lib/index.js"
+    "iconfont-cli": "lib/index.js"
   },
   "scripts": {
     "test": "node lib/index.js create  ./assets ./iconfont.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xyclr/iconfont-cli"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Arvin Xyclr",
   "license": "ISC",
   "dependencies": {
     "commander": "^9.5.0",
