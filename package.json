@@ -1,0 +1,24 @@
+{
+  "name": "iconfont-cli",
+  "version": "1.0.0",
+  "description": "create iconfont.js from svgs",
+  "main": "lib/index.js",
+  "bin": {
+    "icon-cli": "lib/index.js"
+  },
+  "scripts": {
+    "test": "node lib/index.js create  ./assets ./iconfont.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.5.0",
+    "ejs": "^3.1.8",
+    "install": "^0.13.0",
+    "open": "^8.4.0",
+    "svg-simple": "^1.0.7",
+    "svgson": "^5.2.1",
+    "svgstore": "^3.0.1"
+  }
+}
